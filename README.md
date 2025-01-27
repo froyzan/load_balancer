@@ -31,7 +31,7 @@ systemctl enable apache2
 ```
 vim /var/www/html/index.html
 
-`<link>` : <http://192.168.1.100>
+`<link>` : <http://192.168.1.180>
 ![web server1](web01.jpg)
 ![web server2](web02.jpg)
 
