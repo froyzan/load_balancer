@@ -29,6 +29,7 @@ apt update
 apt install apache2 -y
 systemctl enable apache2
 ```
+
 vim /var/www/html/index.html
 `<link>` : <http://192.168.1.100>
 ![web server1](web01.jpg)
