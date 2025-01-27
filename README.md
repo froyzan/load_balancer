@@ -36,5 +36,5 @@ vim /var/www/html/index.html
 ![web server2](web02.jpg)
 
 ### HAProxy Stats
-`<link>` : <http://192.168.1.100:5555/stats>
+`<link>` : <http://192.168.1.180:5555/stats>
 ![haproxy stats](haproxy_stats.jpg)
