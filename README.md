@@ -1,4 +1,4 @@
-# load_balancer
+# Load Balancer (Keepalived + HAProxy)
 ![Load Balancer](lb.jpg)
 
 ##  Install and config Keepalived
