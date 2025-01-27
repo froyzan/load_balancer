@@ -1,6 +1,6 @@
 # load_balancer
 
-##  Install and config keepalived
+##  Install and config Keepalived
 apt update
 apt install keepalived -y
 systemctl enable keepalived
@@ -19,3 +19,10 @@ systemctl enable haproxy
 
 ### Conf:
 vim /etc/haproxy/haproxy.cfg
+
+##  Install Web Server Apache:
+apt update
+apt install apache2 -y
+systemctl enable apache2
+
+vim /var/www/html/index.html
