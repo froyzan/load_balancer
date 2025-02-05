@@ -1,5 +1,5 @@
 # Load Balancer (Keepalived + HAProxy)
-![Load Balancer](lb.jpg)
+![Load Balancer](images/lb.jpg)
 
 ##  Install and config Keepalived
 ```bash
@@ -32,9 +32,11 @@ systemctl enable apache2
 vim /var/www/html/index.html
 
 `<link>` : <http://192.168.1.180>
-![web server1](web01.jpg)
-![web server2](web02.jpg)
+
+![web server1](images/web01.jpg)
+![web server2](images/web02.jpg)
 
 ### HAProxy Stats
 `<link>` : <http://192.168.1.180:5555/stats>
-![haproxy stats](haproxy_stats.jpg)
+
+![haproxy stats](images/haproxy_stats.jpg)
